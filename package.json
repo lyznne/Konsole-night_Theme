@@ -1,0 +1,36 @@
+{
+  "name": "konsole-night",
+  "displayName": "konsole Night",
+  "description": "Dark color theme from Garuda Linux konsole",
+  "version": "1.0.0",
+  "keywords": [
+    "Themes",
+    "themes",
+    "dark",
+    "konsole",
+    "konsole night",
+    "konsole Night Theme for Konsole Terminal",
+    "lyznne"
+  ],
+  "author": {
+    "name": "Enos Lyznne",
+    "url": "https://www.github.com/lyznne",
+    "twitter": "https://www.twitter.com/lyznne"
+  }
+,  
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Konsole Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Konsole Night-color-theme.json"
+      }
+    ]
+  }
+}
