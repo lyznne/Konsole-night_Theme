@@ -3,6 +3,7 @@
   "displayName": "konsole Night",
   "description": "Dark color theme from Garuda Linux konsole",
   "publisher": "Enoslyznne",
+  "icon": "images/banner.png",
   "version": "1.2.0",
   "keywords": [
     "Themes",
@@ -11,7 +12,11 @@
     "konsole",
     "konsole night",
     "konsole Night Theme for Konsole Terminal",
-    "lyznne"
+    "lyznne",
+    "Night",
+    "Garuda linux",
+    "linux",
+    "terminal"
   ],
   "author": {
     "name": "Enos Lyznne",
