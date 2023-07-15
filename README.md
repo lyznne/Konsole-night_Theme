@@ -1,6 +1,6 @@
 # Konsole Night Theme for Visual Studio Code
 
-![Konsole Night Theme](images/banner.png)
+![Konsole Night](images/banner.png)
 
 ## Description
 
