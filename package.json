@@ -2,6 +2,7 @@
   "name": "konsole-night",
   "displayName": "konsole Night",
   "description": "Dark color theme from Garuda Linux konsole",
+  "publisher": "Enoslyznne",
   "version": "1.0.0",
   "keywords": [
     "Themes",
@@ -16,8 +17,11 @@
     "name": "Enos Lyznne",
     "url": "https://www.github.com/lyznne",
     "twitter": "https://www.twitter.com/lyznne"
-  }
-,  
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyznne/Konsole-night_Theme.git"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },

@@ -20,7 +20,6 @@ Konsole Night is a dark color theme for Visual Studio Code that provides a sleek
 
 ![code](/images/editor-screenshot-2.png)
 
-![code](/images/editor-screenshot-3.png)
 
 ## Installation
 
@@ -42,7 +41,12 @@ Konsole Night theme is developed and maintained by [Enos Lyznne](https://github.
 
 ## License
 
-This theme is released under the [MIT License](https://opensource.org/licenses/MIT).
+
+This theme is released under the [Business Source License (BSL)](/LICENSE.md).
+
+The BSL is a license that allows you to use, modify, and distribute the software under certain terms and conditions. Please review the [BSL license text](/LICENSE.md). for more details.
+
+
 
 ---
 
