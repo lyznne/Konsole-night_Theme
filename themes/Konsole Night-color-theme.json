@@ -29,12 +29,9 @@
 		"editorGutter.foldingControlForeground": "#86b9f3e7",
 		"editorGroup.border": "#769ecc6c",
 		"editorGroupHeader.tabsBackground": "#02212ea4",
-
 		"widget.border": "#00141b",
 		"toolbar.hoverBackground": "#86b9f383",
 		"dart.closingLabels": "#75797ee7",
-			
-
 		"welcomePage.tileBorder": "#111827ef",
 		"welcomePage.progress.background": "#44494e",
 		"input.background": "#111827",
@@ -116,6 +113,20 @@
 		"gitDecoration.conflictingResourceForeground": "#ffeb95cc",
 	},
 	"tokenColors": [
+		
+		  {
+			"scope": "source.gitignore",
+			"settings": {
+			  "foreground": "#fa6a31"  
+			}
+		  },
+		  {
+			"scope": "comment.line.gitignore",
+			"settings": {
+			  "foreground": "#3572A5"
+			}
+		  },
+		  
 		{
 			"name": "Changed",
 			"scope": [

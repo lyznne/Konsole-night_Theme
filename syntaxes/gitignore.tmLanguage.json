@@ -1,0 +1,26 @@
+{
+    "name": "Gitignore",
+    "scopeName": "source.gitignore",
+    "fileTypes": ["gitignore"],
+    "patterns": [
+      {
+        "match": "^#.*",
+        "name": "comment.line.gitignore"
+      },
+      {
+        "include": "#otherText"
+      }
+    ],
+    "repository": {
+      "otherText": {
+        "name": "Other Text",
+        "match": ".*",
+        "captures": {
+          "0": {
+            "name": "source.gitignore"
+          }
+        }
+      }
+    }
+  }
+  

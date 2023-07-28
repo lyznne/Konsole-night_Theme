@@ -1,9 +1,15 @@
-# Change Log
+# [konsole night](https://marketplace.visualstudio.com/items?itemName=Enoslyznne.konsole-night)
 
-All notable changes to the "konsole-night" extension will be documented in this file.
+All notable changes to the "konsole-night" extension.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+# Release Notes
+## [1.3.0]
 
-## [Unreleased]
+- 🚀 Initial release
 
-- Initial release
+## [1.3.1] - [July, 28,2023]
+
+### Added
+
+- 🌟 Support for `.git` and `.gitignore` file types.
+

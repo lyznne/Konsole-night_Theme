@@ -1,6 +1,6 @@
-# Konsole Night Theme for Visual Studio Code
+# Konsole Night Theme for VS Code
 
-![Konsole Night](images/banner.png)
+# [konsole night](https://marketplace.visualstudio.com/items?itemName=Enoslyznne.konsole-night)
 
 ## Description
 
@@ -33,23 +33,17 @@ Konsole Night is a dark color theme for Visual Studio Code that provides a sleek
 
 ## Feedback and Support
 
-If you encounter any issues, have suggestions, or want to provide feedback, please [open an issue](https://github.com/your-username/your-repo-name/issues) on the GitHub repository.
+If you encounter any issues, have suggestions, or want to provide feedback, please [open an issue](https://github.com/lyznne/Konsole-night_Theme/issues) on the GitHub repository.
 
 ## Credits
 
 Konsole Night theme is developed and maintained by [Enos Lyznne](https://github.com/lyznne).
 
-## License
-
-
-This theme is released under the [Business Source License (BSL)](/LICENSE.md).
-
-The BSL is a license that allows you to use, modify, and distribute the software under certain terms and conditions. Please review the [BSL license text](/LICENSE.md). for more details.
-
-
 
 ---
 
-Thank you for choosing the Konsole Night theme! We hope it enhances your coding experience and brings a touch of elegance to your Visual Studio Code editor. If you enjoy using the theme, please consider sharing it with others and leaving a review in the Visual Studio Code marketplace.
+🌌 Thank you for choosing the Konsole Night theme! 🌃
 
-**Enjoy!**
+We hope it enhances your coding experience and brings a touch of elegance to your Visual Studio Code editor. 💻 If you enjoy using the theme, please consider sharing it with others and leaving a review in the Visual Studio Code marketplace.
+
+**Enjoy coding in style!** ✨

@@ -40,6 +40,20 @@
         "uiTheme": "vs-dark",
         "path": "./themes/Konsole Night-color-theme.json"
       }
+    ],
+    "languages": [
+      {
+        "id": "gitignore",
+        "extensions": [".gitignore"]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "gitignore",
+        "scopeName": "source.gitignore",
+        "path": "./syntaxes/gitignore.tmLanguage.json"
+      }
     ]
   }
+
 }
