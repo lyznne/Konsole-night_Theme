@@ -28,7 +28,7 @@
     "url": "https://github.com/lyznne/Konsole-night_Theme.git"
   },
   "engines": {
-    "vscode": "^1.80.0"
+    "vscode": "^1.17.0"
   },
   "categories": [
     "Themes"
