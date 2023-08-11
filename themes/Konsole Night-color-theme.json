@@ -113,20 +113,29 @@
 		"gitDecoration.conflictingResourceForeground": "#ffeb95cc",
 	},
 	"tokenColors": [
+		{
+			"scope": [
+				"source.js.jsx",
+				"source.jsx",
+				"source.js"
+			],
+			"settings": {
+				"foreground": "#fd428aef",
+			}
+		},
 		
-		  {
+		{
 			"scope": "source.gitignore",
 			"settings": {
-			  "foreground": "#fa6a31"  
+				"foreground": "#fa6a31"
 			}
-		  },
-		  {
+		},
+		{
 			"scope": "comment.line.gitignore",
 			"settings": {
-			  "foreground": "#3572A5"
+				"foreground": "#3572A5"
 			}
-		  },
-		  
+		},
 		{
 			"name": "Changed",
 			"scope": [
@@ -260,7 +269,7 @@
 			"name": "Storage type",
 			"scope": "storage.type.function.arrow.js",
 			"settings": {
-				"fontStyle": ""
+				"foreground": "#ff3281",
 			}
 		},
 		{
@@ -585,7 +594,7 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#928688"
+				"foreground": "#a8a1a2"
 			}
 		},
 		{

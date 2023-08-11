@@ -13,3 +13,9 @@ All notable changes to the "konsole-night" extension.
 
 - 🌟 Support for `.git` and `.gitignore` file types.
 
+## [1.3.3] - [August, 11,2023]
+
+### Added
+
+- 🌟 Support for `.jsx` (react js)  file type.
+
