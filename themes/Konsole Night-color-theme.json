@@ -125,11 +125,11 @@
 		},
 		
 		{
-			"scope": "source.gitignore",
+			"scope": "source.gitignore,  source.ignore",
 			"settings": {
-				"foreground": "#fa6a31"
+			  "foreground": "#fa6a31"
 			}
-		},
+		  },		  
 		{
 			"scope": "comment.line.gitignore",
 			"settings": {

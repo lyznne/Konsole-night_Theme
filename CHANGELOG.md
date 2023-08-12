@@ -17,5 +17,10 @@ All notable changes to the "konsole-night" extension.
 
 ### Added
 
-- 🌟 Support for `.jsx` (react js)  file type.
+- 🌟  styling for `.jsx` (react js)  file type.
 
+## [1.3.4] - [August, 12,2023]
+
+### Added
+
+- 🌟  styling for `ignore` (eg. `.vscodeignore` )  file type.

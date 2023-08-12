@@ -45,7 +45,8 @@
       {
         "id": "gitignore",
         "extensions": [
-          ".gitignore"
+          ".gitignore",
+          ".vscodeignore"          
         ]
       }
     ],
