@@ -14,8 +14,6 @@
 		"editorLineNumber.foreground": "#86b9f383",
 		"editor.findMatchBackground": "#047857",
 		"editor.findMatchHighlightBackground": "#1f2937",
-		"editorIndentGuide.background": "#193d66ea",
-		"editorIndentGuide.activeBackground": "#2e4faa",
 		"editorWidget.background": "#00121fe8",
 		"editorWidget.border": "#02212e",
 		"editorSuggestWidget.background": "#02212ef1",
@@ -31,12 +29,13 @@
 		"editorGroupHeader.tabsBackground": "#02212ea4",
 		"widget.border": "#00141b",
 		"toolbar.hoverBackground": "#86b9f383",
-		"dart.closingLabels": "#75797ee7",
+		"dart.closingLabels": "#5e7ca3e7",
+		"dart.flutterUiGuides": "#dcf7fcf3",
 		"welcomePage.tileBorder": "#111827ef",
 		"welcomePage.progress.background": "#44494e",
 		"input.background": "#111827",
 		"tab.hoverBackground": "#00151dcc",
-		"list.hoverBackground": "#193d668a",
+		"list.hoverBackground": "#91c5ffb6",
 		"checkbox.background": "#253352cb",
 		"checkbox.border": "#253352ab",
 		"checkbox.foreground": "#00c8ff",
@@ -113,6 +112,8 @@
 		"gitDecoration.conflictingResourceForeground": "#ffeb95cc",
 	},
 	"tokenColors": [
+		
+	
 		{
 			"scope": [
 				"source.js.jsx",
