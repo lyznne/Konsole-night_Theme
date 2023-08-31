@@ -24,3 +24,7 @@ All notable changes to the "konsole-night" extension.
 ### Added
 
 - 🌟  styling for `ignore` (eg. `.vscodeignore` )  file type.
+
+### Added
+
+- 🌟  styling for `dart`  files.
