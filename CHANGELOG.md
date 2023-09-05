@@ -28,3 +28,10 @@ All notable changes to the "konsole-night" extension.
 ### Added
 
 - 🌟  styling for `dart`  files.
+
+
+## [1.3.5 - 1.3.8] - [september, 5,2023]
+
+### improve ⚡️⚡️
+
+- 🚀 `improving ` and `adding` more functionalities and user experience.
