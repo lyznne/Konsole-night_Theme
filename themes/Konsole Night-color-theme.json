@@ -32,7 +32,7 @@
 		"editorIndentGuide.activeBackground2": "#306ef550",
 		"editorIndentGuide.background1": "#306ef56b",
 		"widget.border": "#00141b",
-		"button.secondaryBackground": "#3286be9d",
+		"button.secondaryBackground": "#0a0c1ad8",
 		"toolbar.hoverBackground": "#0371bb46",
 		"dart.closingLabels": "#5e7ca3e7",
 		"dart.flutterUiGuides": "#dcf7fcf3",
@@ -40,7 +40,7 @@
 		"welcomePage.progress.background": "#44494e",
 		"input.background": "#111827",
 		"tab.hoverBackground": "#00151dcc",
-		"list.hoverBackground": "#91c5ffb6",
+		"list.hoverBackground": "#19569c5e",
 		"checkbox.background": "#253352cb",
 		"checkbox.border": "#253352ab",
 		"checkbox.foreground": "#00c8ff",
@@ -85,8 +85,8 @@
 		"notifications.foreground": "#dcf7fc",
 		"notificationLink.foreground": "#80CBC4",
 		"extensionButton.prominentForeground": "#dcf7fc",
-		"extensionButton.prominentBackground": "#7e57c2cc",
-		"extensionButton.prominentHoverBackground": "#7e57c2",
+		"extensionButton.prominentBackground": "#301c52cc",
+		"extensionButton.prominentHoverBackground": "#c25757",
 		"pickerGroup.foreground": "#d1aaff",
 		"pickerGroup.border": "#011627",
 		"terminal.ansiWhite": "#ffffff",
@@ -105,7 +105,7 @@
 		"terminal.ansiBrightMagenta": "#C792EA",
 		"terminal.ansiBrightRed": "#df4442",
 		"terminal.ansiBrightYellow": "#ffeb95",
-		"terminal.hoverHighlightBackground": "#3d7cdb4d",
+		"terminal.hoverHighlightBackground": "#16335f4d",
 		"terminal.selectionBackground": "#1b8fdd7a",
 		"terminalCursor.background": "#234d70",
 		"textCodeBlock.background": "#4b4646",
@@ -118,8 +118,6 @@
 		"gitDecoration.conflictingResourceForeground": "#ffeb95cc",
 	},
 	"tokenColors": [
-		
-	
 		{
 			"scope": [
 				"source.js.jsx",
@@ -130,13 +128,12 @@
 				"foreground": "#fd428aef",
 			}
 		},
-		
 		{
 			"scope": "source.gitignore,  source.ignore",
 			"settings": {
-			  "foreground": "#fa6a31"
+				"foreground": "#fa6a31"
 			}
-		  },		  
+		},
 		{
 			"scope": "comment.line.gitignore",
 			"settings": {
@@ -285,8 +282,8 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#ff8420b0",
-				"fontStyle": "italic"
+				"foreground": "#ff8420c2",
+				"fontStyle": " underline"
 			}
 		},
 		{
@@ -449,7 +446,6 @@
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
-				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
@@ -766,10 +762,25 @@
 			}
 		},
 		{
-			"name": "Keyword Operator Comparison, returns, imports, and Keyword Operator Ruby",
+			"name": " returns, imports , Keyword Operator Comparison",
 			"scope": [
 				"keyword.control.conditional.js",
+				"keyword.control.import.js",
+				"keyword.control.import.ts",
+				"keyword.control.import.tsx",
+				"keyword.control.from.js",
+				"keyword.control.from.ts",
+				"keyword.control.from.tsx",
 				"keyword.operator.comparison",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#ff701df1",
+			}
+		},
+		{
+			"name": "imports, and Keyword Operator Ruby",
+			"scope": [
 				"keyword.control.flow.js",
 				"keyword.control.flow.ts",
 				"keyword.control.flow.tsx",
@@ -777,22 +788,13 @@
 				"keyword.control.def.ruby",
 				"keyword.control.loop.js",
 				"keyword.control.loop.ts",
-				"keyword.control.import.js",
-				"keyword.control.import.ts",
-				"keyword.control.import.tsx",
-				"keyword.control.from.js",
-				"keyword.control.from.ts",
-				"keyword.control.from.tsx",
 				"keyword.control.conditional.js",
 				"keyword.control.conditional.ts",
 				"keyword.control.switch.js",
 				"keyword.control.switch.ts",
-				"keyword.operator.instanceof.js",
-				"keyword.operator.expression.instanceof.ts",
-				"keyword.operator.expression.instanceof.tsx"
 			],
 			"settings": {
-				"foreground": "#c584f0",
+				"foreground": "#ff961dcb",
 				"fontStyle": ""
 			}
 		},

@@ -35,3 +35,10 @@ All notable changes to the "konsole-night" extension.
 ### improve ⚡️⚡️
 
 - 🚀 `improving ` and `adding` more functionalities and user experience.
+
+
+## [1.3.9] - [september, 15,2023]
+
+### improve ⚡️⚡️
+
+- 🚀 `improving ` and `adding` more styling for `.ts` (typescript) and `.js` (javascript) . 
