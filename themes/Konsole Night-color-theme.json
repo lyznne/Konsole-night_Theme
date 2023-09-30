@@ -128,6 +128,7 @@
 				"foreground": "#fd428aef",
 			}
 		},
+		
 		{
 			"scope": "source.gitignore,  source.ignore",
 			"settings": {
@@ -236,7 +237,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#fcdf3dd7"
+				"foreground": "#fddf34fb"
 			}
 		},
 		{
@@ -391,21 +392,31 @@
 			"settings": {
 				"foreground": "#971f61e3"
 			}
+		},{
+			"name": "Constant",
+			"scope": [
+				"constant.numeric",
+				"constant.numeric.float",
+				"constant.character.escape",
+				"constant.character",
+
+			],
+		"settings": {
+			"foreground": "#FD80A8",
+		}
 		},
 		{
 			"name": "Constant, Function Argument",
 			"scope": [
-				"constant.numeric",
 				"constant.language",
 				"support.constant",
-				"constant.character",
 				"constant.escape",
 				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other.constant_function_argument"
 			],
 			"settings": {
-				"foreground": "#cfb587"
+				"foreground": "#f7ce38"
 			}
 		},
 		{
@@ -597,7 +608,7 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#a8a1a2"
+				"foreground": "#ec3f59"
 			}
 		},
 		{
@@ -737,7 +748,7 @@
 			"name": "Support Variable DOM",
 			"scope": "support.variable.dom",
 			"settings": {
-				"foreground": "#c5e478"
+				"foreground": "#cfee7f"
 			}
 		},
 		{
@@ -775,7 +786,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#ff701df1",
+				"foreground": "#fd7627f1",
 			}
 		},
 		{
