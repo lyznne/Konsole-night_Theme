@@ -49,3 +49,15 @@ All notable changes to the "konsole-night" extension.
 ### improve styles ⚡️⚡️
 
 - 🚀  🚀 🚀  more styles 🎉. 
+
+
+## [1.4.00] - [November 01, 2023]
+
+### Added
+
+- Styling improvements for GraphQL support 🎨✨
+- Enhanced styles ⚡️⚡️
+- Added more diverse styles 🚀🚀🚀🎉.
+
+
+

@@ -48,6 +48,13 @@
           ".gitignore",
           ".vscodeignore"
         ]
+      },
+      {
+        "id": "graphql",
+        "aliases": ["GraphQL", "gql"],
+        "extensions": [
+          ".graphql"
+        ]
       }
     ],
     "grammars": [
@@ -55,6 +62,11 @@
         "language": "gitignore",
         "scopeName": "source.gitignore",
         "path": "./syntaxes/gitignore.tmLanguage.json"
+      },
+      {
+        "language": "graphql",
+        "scopeName": "source.graphql",
+        "path": "./syntaxes/graphql.tmLanguage.json"
       }
     ]
   }

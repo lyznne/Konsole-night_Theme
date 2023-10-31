@@ -31,8 +31,6 @@
 		"editorIndentGuide.activeBackground1": "#19a4e080",
 		"editorIndentGuide.activeBackground2": "#306ef550",
 		"editorIndentGuide.background1": "#306ef56b",
-		
-
 		"widget.border": "#00141b",
 		"button.secondaryBackground": "#0a0c1ad8",
 		"toolbar.hoverBackground": "#0371bb46",
@@ -121,6 +119,54 @@
 	},
 	"tokenColors": [
 		{
+			"scope": "entity.name.function.graphql, meta.arguments.graphql",
+			"settings": {
+				"foreground": "#ff7b00"
+			}
+		},
+		{
+			"scope": "source.js.embedded.graphql, variable.graphql",
+			"settings": {
+				"foreground": "#ff532df8"
+			}
+		},
+		{
+			"scope": "variable.inline-graphql",
+			"settings": {
+				"foreground": "#3366FF"
+			}
+		},
+		{
+			"scope": "string.inline-graphql",
+			"settings": {
+				"foreground": "#DD2266"
+			}
+		},
+		{
+			"scope": "entity.type.graphql",
+			"settings": {
+				"foreground": "#ff00ffe5" // Color for GraphQL type entities
+			}
+		},
+		{
+			"scope": "source.js.embedded.graphql",
+			"settings": {
+				"foreground": "#3366FF" // Adjust this color to match the inline-graphql text color
+			}
+		},
+		{
+			"scope": "string.quoted.graphql",
+			"settings": {
+				"foreground": "#DD2266" // Adjust this color to match the string in inline-graphql
+			}
+		},
+		{
+			"scope": "entity.type.graphql",
+			"settings": {
+				"foreground": "#00FF00"
+			}
+		},
+		{
 			"scope": [
 				"source.js.jsx",
 				"source.jsx",
@@ -130,9 +176,8 @@
 				"foreground": "#fd428aef",
 			}
 		},
-		
 		{
-			"scope": "source.gitignore,  source.ignore",
+			"scope": "source.gitignore,   source.ignore, support.type.primitive.graphql",
 			"settings": {
 				"foreground": "#fa6a31"
 			}
@@ -225,7 +270,8 @@
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"punctuation.whitespace.comment.leading.graphql"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -236,7 +282,8 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
+				"string constant.other.placeholder",
+				"keyword.operation.graphql"
 			],
 			"settings": {
 				"foreground": "#fddf34fb"
@@ -299,6 +346,7 @@
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
+				"source.graphql",
 				"support.type.sys-types"
 			],
 			"settings": {
@@ -394,18 +442,18 @@
 			"settings": {
 				"foreground": "#971f61e3"
 			}
-		},{
+		},
+		{
 			"name": "Constant",
 			"scope": [
 				"constant.numeric",
 				"constant.numeric.float",
 				"constant.character.escape",
 				"constant.character",
-
 			],
-		"settings": {
-			"foreground": "#FD80A8",
-		}
+			"settings": {
+				"foreground": "#FD80A8",
+			}
 		},
 		{
 			"name": "Constant, Function Argument",
