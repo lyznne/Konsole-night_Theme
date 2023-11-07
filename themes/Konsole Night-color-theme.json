@@ -1,6 +1,7 @@
 {
 	"name": "Konsole Night",
 	"semanticHighlighting": false,
+	
 	"colors": {
 		"editor.background": "#00151d",
 		"editor.foreground": "#9dc1eb",
@@ -1596,5 +1597,14 @@
 				"foreground": "#81adca"
 			}
 		}
-	]
+	],
+	// "editor.tokenColorCustomizations": {
+	// 	"textMateRules": [
+	// 		// Custom specific text mate rules
+	// 	]
+	// },
+	"editor": {
+		"fontFamily": "'JetBrains Mono', 'Consolas', 'Fira Code' ",
+		"fontLigatures": true
+	}
 }
