@@ -9,7 +9,7 @@
 		"scrollbarSlider.activeBackground": "#66969996",
 		"scrollbarSlider.hoverBackground": "#66969970",
 		"editor.lineHighlightBackground": "#8cbbc421",
-		"editorCursor.foreground": "#dcf7fc",
+		"editorCursor.foreground": "#9dc0eb",
 		"editorLineNumber.activeForeground": "#86b9f3",
 		"editorLineNumber.dimmedForeground": "#86b9f3b4",
 		"editorLineNumber.foreground": "#86b9f383",
@@ -117,6 +117,7 @@
 		"gitDecoration.untrackedResourceForeground": "#c5e478ff",
 		"gitDecoration.ignoredResourceForeground": "#395a75",
 		"gitDecoration.conflictingResourceForeground": "#ffeb95cc",
+"terminalCursor.foreground": "#f8fafc"
 	},
 	"tokenColors": [
 		{
@@ -1604,7 +1605,8 @@
 	// 	]
 	// },
 	"editor": {
-		"fontFamily": "'JetBrains Mono', 'Consolas', 'Fira Code' ",
-		"fontLigatures": true
+		"fontFamily": "' Fira Code','Cascadia code ','JetBrains Mono', 'Fire Sans",
+		"fontLigatures": true,
+		"cursorStyle": "Expanded",
 	}
 }
