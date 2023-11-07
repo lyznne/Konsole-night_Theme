@@ -1605,7 +1605,7 @@
 	// 	]
 	// },
 	"editor": {
-		"fontFamily": "' Fira Code','Cascadia code ','JetBrains Mono', 'Fire Sans",
+		"fontFamily":  " 'Cascadia Code ',' 'Fire Code,  'JetBrains Mono', monospace",
 		"fontLigatures": true,
 		"cursorStyle": "Expanded",
 	}
