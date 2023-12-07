@@ -64,5 +64,14 @@ All notable changes to the "konsole-night" extension.
 #### font styling 
 - trying the ligatures in font for better coding experience (--- may not work for all OS ---). 
 
+## [1.4.2] - [December 06, 2023]
+
+### Improved
+
+- Styling improvements  🎨✨
+- Enhanced UI ⚡️⚡️
+
+
+
 
 

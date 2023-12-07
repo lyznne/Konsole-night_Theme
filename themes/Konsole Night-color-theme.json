@@ -1,7 +1,6 @@
 {
 	"name": "Konsole Night",
 	"semanticHighlighting": false,
-	
 	"colors": {
 		"editor.background": "#00151d",
 		"editor.foreground": "#9dc1eb",
@@ -32,6 +31,20 @@
 		"editorIndentGuide.activeBackground1": "#19a4e080",
 		"editorIndentGuide.activeBackground2": "#306ef550",
 		"editorIndentGuide.background1": "#306ef56b",
+		"editorGroup.dropIntoPromptBackground": "#00121f",
+		"editorGroup.dropBackground": "#07025228",
+		"editorCodeLens.foreground": "#7b9bc0a9",
+		"editor.selectionBackground": "#024677e5",
+		"editorLightBulb.foreground": "#ffc400",
+		"textCodeBlock.background": "#817c7c",
+		"peekViewEditor.background": "#001425b4",
+		"peekView.border": "#2ab1e681",
+		"peekViewTitle.background": "#00151dcc",
+		"peekViewResult.fileForeground": "#b2cae6ee",
+		"peekViewResult.background": "#000C18",
+		"peekViewTitleLabel.foreground": "#dcf7fcd0",
+		"peekViewTitleDescription.foreground": "#dcf7fc7e",
+		"peekViewResult.lineForeground": "#ffac5eb2",
 		"widget.border": "#00141b",
 		"button.secondaryBackground": "#0a0c1ad8",
 		"toolbar.hoverBackground": "#0371bb46",
@@ -109,7 +122,8 @@
 		"terminal.hoverHighlightBackground": "#16335f4d",
 		"terminal.selectionBackground": "#1b8fdd7a",
 		"terminalCursor.background": "#234d70",
-		"textCodeBlock.background": "#4b4646",
+		"terminalCommandDecoration.successBackground": "#00ff62d7",
+		"terminalCommandDecoration.errorBackground": "#ff3333",
 		"debugToolBar.background": "#011627",
 		"walkThrough.embeddedEditorBackground": "#011627",
 		"gitDecoration.modifiedResourceForeground": "#a2bffc",
@@ -117,7 +131,7 @@
 		"gitDecoration.untrackedResourceForeground": "#c5e478ff",
 		"gitDecoration.ignoredResourceForeground": "#395a75",
 		"gitDecoration.conflictingResourceForeground": "#ffeb95cc",
-"terminalCursor.foreground": "#f8fafc"
+		"terminalCursor.foreground": "#f8fafc",
 	},
 	"tokenColors": [
 		{
@@ -1605,7 +1619,7 @@
 	// 	]
 	// },
 	"editor": {
-		"fontFamily":  " 'Cascadia Code ',' 'Fire Code,  'JetBrains Mono', monospace",
+		"fontFamily": " 'Cascadia Code ',' 'Fire Code,  'JetBrains Mono', monospace",
 		"fontLigatures": true,
 		"cursorStyle": "Expanded",
 	}
