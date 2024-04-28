@@ -1,76 +1,77 @@
 {
-  "name": "konsole-night",
-  "displayName": "konsole Night",
-  "description": "Dark color theme from Garuda Linux konsole",
-  "publisher": "Enoslyznne",
-  "icon": "images/banner.png",
-  "version": "1.4.12",
-  "keywords": [
-    "Themes",
-    "themes",
-    "dark",
-    "konsole",
-    "konsole night",
-    "konsole Night Theme for Konsole Terminal",
-    "lyznne",
-    "Night",
-    "Garuda linux",
-    "linux",
-    "terminal"
-  ],
-  "author": {
-    "name": "Enos Lyznne",
-    "url": "https://www.github.com/lyznne",
-    "twitter": "https://www.twitter.com/lyznne"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lyznne/Konsole-night_Theme.git"
-  },
-  "engines": {
-    "vscode": "^1.17.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Konsole Night",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Konsole Night-color-theme.json"
-      }
+    "name": "konsole-night",
+    "displayName": "konsole Night",
+    "description": "Dark color theme from Garuda Linux konsole",
+    "publisher": "Enoslyznne",
+    "icon": "images/banner.png",
+    "version": "1.4.12",
+    "keywords": [
+        "Themes",
+        "themes",
+        "dark",
+        "konsole",
+        "konsole night",
+        "konsole Night Theme for Konsole Terminal",
+        "lyznne",
+        "Night",
+        "Garuda linux",
+        "linux",
+        "terminal"
     ],
-    "languages": [
-      {
-        "id": "gitignore",
-        "extensions": [
-          ".gitignore",
-          ".vscodeignore"
-        ]
-      },
-      {
-        "id": "graphql",
-        "aliases": [
-          "GraphQL",
-          "gql"
+    "author": {
+        "name": "Enos Lyznne",
+        "url": "https://www.github.com/lyznne",
+        "twitter": "https://www.twitter.com/lyznne"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lyznne/Konsole-night_Theme.git"
+    },
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Konsole Night",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Konsole Night-color-theme.json"
+            }
         ],
-        "extensions": [
-          ".graphql"
+        "languages": [
+            {
+                "id": "gitignore",
+                "extensions": [
+                    ".gitignore",
+                    ".vscodeignore"
+                ]
+            },
+            {
+                "id": "graphql",
+                "aliases": [
+                    "GraphQL",
+                    "gql"
+                ],
+                "extensions": [
+                    ".graphql"
+                ]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "gitignore",
+                "scopeName": "source.gitignore",
+                "path": "./syntaxes/gitignore.tmLanguage.json"
+            },
+            {
+                "language": "graphql",
+                "scopeName": "source.graphql",
+                "path": "./syntaxes/graphql.tmLanguage.json"
+            }
         ]
-      }
-    ],
-    "grammars": [
-      {
-        "language": "gitignore",
-        "scopeName": "source.gitignore",
-        "path": "./syntaxes/gitignore.tmLanguage.json"
-      },
-      {
-        "language": "graphql",
-        "scopeName": "source.graphql",
-        "path": "./syntaxes/graphql.tmLanguage.json"
-      }
-    ]
-  }
+    },
+    "license": "MIT"
 }
