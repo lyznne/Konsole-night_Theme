@@ -16,7 +16,10 @@
         "Night",
         "Garuda linux",
         "linux",
-        "terminal"
+        "terminal",
+        "toml",
+        "gitignore",
+        "syntaxhighlting"
     ],
     "author": {
         "name": "Enos Lyznne",

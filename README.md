@@ -14,6 +14,8 @@ Konsole Night is a dark color theme for Visual Studio Code that provides a sleek
 - **Focused Editing**: The theme's subtle design elements help keep your focus on the code and minimize distractions.
 - **Markdown Support**
 
+- **TOML Support**
+
 ## Screenshots
 
 ![code](/images/editor.png)
