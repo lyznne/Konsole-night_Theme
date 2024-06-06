@@ -21,6 +21,9 @@
     "author": {
         "name": "Enos Lyznne",
         "url": "https://www.github.com/lyznne",
+        "urls": [
+            "https://enos.vercel.app"
+        ],
         "twitter": "https://www.twitter.com/lyznne"
     },
     "repository": {
@@ -58,6 +61,16 @@
                 "extensions": [
                     ".graphql"
                 ]
+            },
+            {
+                "id": "toml",
+                "aliases": [
+                    "toml",
+                    "TOML"
+                ],
+                "extensions": [
+                    ".toml"
+                ]
             }
         ],
         "grammars": [
@@ -70,6 +83,11 @@
                 "language": "graphql",
                 "scopeName": "source.graphql",
                 "path": "./syntaxes/graphql.tmLanguage.json"
+            },
+            {
+                "language": "toml",
+                "scopeName": "source.toml",
+                "path": "./syntaxes/toml.tmLanguage.json"
             }
         ]
     },

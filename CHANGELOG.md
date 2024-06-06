@@ -72,6 +72,11 @@ All notable changes to the "konsole-night" extension.
 - Enhanced UI ⚡️⚡️
 
 
+## [1.4.3] - [June 06, 2024]
+
+### New toml styling 🎨✨
+    - introduced a styling for toml files 🎉🎉.
+    - Enhances UI ⚡️⚡️
 
 
 
