@@ -63,7 +63,6 @@ All notable changes to the "konsole-night" extension.
 
 #### font styling 
 - trying the ligatures in font for better coding experience (--- may not work for all OS ---). 
-
 ## [1.4.2] - [December 06, 2023]
 
 ### Improved
@@ -71,7 +70,7 @@ All notable changes to the "konsole-night" extension.
 - Styling improvements  🎨✨
 - Enhanced UI ⚡️⚡️
 
-
+b
 ## [1.4.3] - [June 06, 2024]
 
 ### New toml styling 🎨✨
@@ -79,4 +78,7 @@ All notable changes to the "konsole-night" extension.
     - Enhances UI ⚡️⚡️
 
 
-
+## [1.4.4] - [August 09, 2024] 
+### styling fot the TitleBar & UI 🎨✨
+    - styling for tilte bar 🎉🎉.
+    - Enhances UI ⚡️⚡️
